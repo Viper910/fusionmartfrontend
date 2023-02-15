@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/fusionmartfrontend/static/css/main.d1dce2e1.css",
-    "main.js": "/fusionmartfrontend/static/js/main.209aec8f.js",
+    "main.js": "/fusionmartfrontend/static/js/main.146812a9.js",
     "index.html": "/fusionmartfrontend/index.html",
     "main.d1dce2e1.css.map": "/fusionmartfrontend/static/css/main.d1dce2e1.css.map",
-    "main.209aec8f.js.map": "/fusionmartfrontend/static/js/main.209aec8f.js.map"
+    "main.146812a9.js.map": "/fusionmartfrontend/static/js/main.146812a9.js.map"
   },
   "entrypoints": [
     "static/css/main.d1dce2e1.css",
-    "static/js/main.209aec8f.js"
+    "static/js/main.146812a9.js"
   ]
 }
