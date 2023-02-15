@@ -13,7 +13,7 @@ export default function PaymentScreen() {
 
   useEffect(() => {
     if (!userInfo){
-      navigate("/signin");
+      navigate("/fusionmartfrontend/signin");
     }
   }, [navigate, userInfo]);
 
@@ -21,7 +21,7 @@ export default function PaymentScreen() {
   const submitHandler = (e) => {
     e.preventDefault();
     dispatch(savePaymentMethod(paymentMethod));
-    navigate('/placeorder')  
+    navigate('/fusionmartfrontend/placeorder')  
   };
   return (
     <div className="container-sm" style={{ padding: "4em" }}>

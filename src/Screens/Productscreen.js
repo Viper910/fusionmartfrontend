@@ -18,7 +18,7 @@ export default function Productscreen(props) {
   }, [dispatch, id]);
 
   const addToCartHandler = () => {
-    navigate(`/cart/${id}?qty=${qty}`);
+    navigate(`/fusionmartfrontend/cart/${id}?qty=${qty}`);
   }
 
   return (
@@ -30,7 +30,7 @@ export default function Productscreen(props) {
       ) : (
         <>
           <div className="container-fluid">
-            <Link to="/" style={{ color: "black" }}>
+            <Link to="/fusionmartfrontend" style={{ color: "black" }}>
               <i className="fa fa-arrow-left" aria-hidden="true"></i>
             </Link>
             <div className="row">

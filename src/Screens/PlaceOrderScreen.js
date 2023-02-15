@@ -57,10 +57,10 @@ export default function PlaceOrderScreen() {
 
   useEffect(() => {
     if (!userInfo) {
-      navigate("/signin");
+      navigate("/fusionmartfrontend/signin");
     }
     if (success) {
-      navigate(`/placeorder/${order._id}`);
+      navigate(`/fusionmartfrontend/placeorder/${order._id}`);
       dispatch({ type: ORDER_CREATE_RESET });
     }
   }, [dispatch, navigate, success, order, userInfo]);

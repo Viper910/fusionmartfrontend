@@ -34,7 +34,7 @@ export default function CartScreen() {
   //Check Out Handler Function...
 
   const checkOutHandler = () =>{
-    navigate('/shipping');
+    navigate('/fusionmartfrontend/shipping');
   }
 
   return (
@@ -98,7 +98,7 @@ export default function CartScreen() {
             ))}
           </div>
         ) : (
-          <MessageBox>Cart Is Empty --- <Link to="/" className="alert-danger" style={{textDecoration:'none'}}>Go shopping</Link></MessageBox>
+          <MessageBox>Cart Is Empty --- <Link to="/fusionmartfrontend" className="alert-danger" style={{textDecoration:'none'}}>Go shopping</Link></MessageBox>
         )}
         <div className="col-sm-6">
           <div className="card" style={{ textAlign: "center" }}>

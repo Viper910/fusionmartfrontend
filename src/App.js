@@ -18,17 +18,17 @@ function App() {
     <div className="App">
       <Navbar/>
       <Routes>
-        <Route path="/" element={<Homescreen />} exact />
-        <Route path="/product/:id" element={<Productscreen />} />
-        <Route path="/cart" element={<CartScreen/>}/>
-        <Route path="/cart/:productID" element={<CartScreen/>}/>
-        <Route path="/signin" element={<SigninScreen/>}/>
-        <Route path="/register" element={<RegisterScreen/>}/>
-        <Route path="/shipping" element={<ShippingScreen/>}/>
-        <Route path="/payment" element={<PaymentScreen/>}/>
-        <Route path="/placeorder" element={<PlaceOrderScreen/>}/>
-        <Route path="/placeorder/:orderId" element={<OrderScreen/>}/>
-        <Route path="/orderhistory" element={<OrderHistoryScreen/>}/>
+        <Route path="/fusionmartfrontend" element={<Homescreen />} exact />
+        <Route path="/fusionmartfrontend/product/:id" element={<Productscreen />} />
+        <Route path="/fusionmartfrontend/cart" element={<CartScreen/>}/>
+        <Route path="/fusionmartfrontend/cart/:productID" element={<CartScreen/>}/>
+        <Route path="/fusionmartfrontend/signin" element={<SigninScreen/>}/>
+        <Route path="/fusionmartfrontend/register" element={<RegisterScreen/>}/>
+        <Route path="/fusionmartfrontend/shipping" element={<ShippingScreen/>}/>
+        <Route path="/fusionmartfrontend/payment" element={<PaymentScreen/>}/>
+        <Route path="/fusionmartfrontend/placeorder" element={<PlaceOrderScreen/>}/>
+        <Route path="/fusionmartfrontend/placeorder/:orderId" element={<OrderScreen/>}/>
+        <Route path="/fusionmartfrontend/orderhistory" element={<OrderHistoryScreen/>}/>
       </Routes>
       <Footer />
     </div>

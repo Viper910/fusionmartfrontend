@@ -17,7 +17,7 @@ export default function Navbar() {
   return (
     <nav className="navbar navbar-light bg-light">
       <div className="container-fluid">
-        <Link className="navbar-brand" to="/">
+        <Link className="navbar-brand" to="/fusionmartfrontend">
           FusionMart
         </Link>
         <ul className="navbar-nav me-auto mb-2 mb-lg-0 list-ul">
@@ -30,14 +30,14 @@ export default function Navbar() {
               <Link
                 className="nav-link active"
                 aria-current="page"
-                to="/signin"
+                to="/fusionmartfrontend/signin"
               >
                 Sign-in
               </Link>
             )}
           </li>
           <li className="nav-item list-li">
-            <Link className="nav-link active" aria-current="page" to="/cart">
+            <Link className="nav-link active" aria-current="page" to="/fusionmartfrontend/cart">
               <i className="fa fa-shopping-cart" aria-hidden="true"></i>
               {cartItems.length > 0 ? (
                 <span className="cart-span">{cartItems.length}</span>
@@ -88,7 +88,7 @@ export default function Navbar() {
               {userInfo ? (
                 <>
                   <li className="nav-item">
-                    <Link className="nav-link" to="/orderhistory">
+                    <Link className="nav-link" to="/fusionmartfrontend/orderhistory">
                       Order History
                     </Link>
                   </li>

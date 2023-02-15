@@ -27,7 +27,7 @@ export default function OrderScreen() {
 
   useEffect(() => {
     if (!userInfo) {
-      navigate("/signin");
+      navigate("/fusionmartfrontend/signin");
     } else {
       dispatch(getOrderDetails(orderId));
     }

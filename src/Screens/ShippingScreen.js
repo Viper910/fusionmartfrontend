@@ -27,12 +27,12 @@ export default function ShippingScreen() {
     dispatch(
       saveShippingAddress({ fullname, address, city, country, postalcode })
     );
-    navigate("/payment");
+    navigate("/fusionmartfrontend/payment");
   };
 
   useEffect(() => {
     if (!userInfo){
-      navigate("/signin");
+      navigate("/fusionmartfrontend/signin");
     }
   }, [navigate, userInfo]);
 

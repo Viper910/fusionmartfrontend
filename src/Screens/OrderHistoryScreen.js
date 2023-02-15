@@ -20,11 +20,11 @@ export default function OrderHistoryScreen() {
   const width = getScreenWidth();
 
   const detailsHandler = (orderId) => {
-    navigate(`/placeorder/${orderId}`);
+    navigate(`/fusionmartfrontend/placeorder/${orderId}`);
   };
   useEffect(() => {
     if (!userInfo) {
-      navigate("/signin");
+      navigate("/fusionmartfrontend/signin");
     } else {
       dispatch(getOrderHistory());
     }

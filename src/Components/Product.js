@@ -7,7 +7,7 @@ export default function Product({ data }) {
   return (
     <div className="col-sm" style={{ margin: "10px" }}>
       <div className="card" style={{ width: "18rem", textAlign: "center" }}>
-        <Link to={`/product/${data._id}`}>
+        <Link to={`/fusionmartfrontend/product/${data._id}`}>
           <img
             style={{ height: "24em" }}
             src={`${process.env.PUBLIC_URL}`+data.image}
@@ -17,7 +17,7 @@ export default function Product({ data }) {
         </Link>
         <div className="card-body">
           <h5 className="card-title">{data.brand}</h5>
-          <Link to={`/product/${data._id}`} style={linkclass}>
+          <Link to={`/fusionmartfrontend/product/${data._id}`} style={linkclass}>
             <p className="card-text">{data.name}</p>
           </Link>
         </div>

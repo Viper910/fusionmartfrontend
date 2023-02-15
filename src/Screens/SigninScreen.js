@@ -14,7 +14,7 @@ export default function SigninScreen() {
 
   const redirect = searchparms.get("redirect")
     ? searchparms.get("redirect")
-    : "/";
+    : "/fusionmartfrontend";
 
   const userSignin = useSelector((state) => state.userSignin);
   const { userInfo, loading, error} = userSignin;
@@ -81,7 +81,7 @@ export default function SigninScreen() {
           </button>
           <p className="fw-bolder">
             New customer?{" "}
-            <Link to={`/register?redirect=${redirect}`} className="fst-italic">
+            <Link to={`/fusionmartfrontend/register?redirect=${redirect}`} className="fst-italic">
               Create your account
             </Link>
           </p>

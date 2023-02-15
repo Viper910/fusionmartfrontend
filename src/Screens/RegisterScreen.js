@@ -18,7 +18,7 @@ export default function RegisterScreen() {
 
   const redirect = searchparms.get("redirect")
     ? searchparms.get("redirect")
-    : "/";
+    : "/fusionmartfrontend";
 
   console.log(redirect);
 
@@ -120,7 +120,7 @@ export default function RegisterScreen() {
           </button>
           <p className="fw-bolder">
             Already have an account?{" "}
-            <Link to={`/signin?redirect=${redirect}`} className="fst-italic">
+            <Link to={`/fusionmartfrontend/signin?redirect=${redirect}`} className="fst-italic">
               Sign-in
             </Link>
           </p>
