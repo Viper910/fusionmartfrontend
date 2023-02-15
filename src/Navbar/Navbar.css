@@ -1,0 +1,11 @@
+.list-ul {
+  display: inline;
+  padding: 1px;
+}
+.list-li {
+  float: left;
+  padding: 0px 10px 0px 10px;
+}
+.cart-span {
+  margin-left: 10px;
+}
