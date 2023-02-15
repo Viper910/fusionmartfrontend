@@ -52,7 +52,7 @@ export default function CartScreen() {
                 <div className="row g-0">
                   <div className="col-md-4">
                     <img
-                      src={product.image}
+                      src={`${process.env.PUBLIC_URL}`+product.image}
                       className="img-fluid rounded-start"
                       style={{ height: "10em" }}
                       alt={product.name}
