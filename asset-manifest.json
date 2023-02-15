@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/fusionmartfrontend/static/css/main.d1dce2e1.css",
+    "main.js": "/fusionmartfrontend/static/js/main.b6340f33.js",
+    "index.html": "/fusionmartfrontend/index.html",
+    "main.d1dce2e1.css.map": "/fusionmartfrontend/static/css/main.d1dce2e1.css.map",
+    "main.b6340f33.js.map": "/fusionmartfrontend/static/js/main.b6340f33.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1dce2e1.css",
+    "static/js/main.b6340f33.js"
+  ]
+}
