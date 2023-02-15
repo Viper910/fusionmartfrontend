@@ -3,14 +3,14 @@ import Review from "./Review";
 
 export default function Product({ data }) {
   const linkclass = { color: "black", textDecoration: "none" };
-  
+  console.log();
   return (
     <div className="col-sm" style={{ margin: "10px" }}>
       <div className="card" style={{ width: "18rem", textAlign: "center" }}>
         <Link to={`/product/${data._id}`}>
           <img
             style={{ height: "24em" }}
-            src={data.image}
+            src={`${process.env.PUBLIC_URL}`+data.image}
             className="card-img-top"
             alt={data.name}
           />

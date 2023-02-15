@@ -37,7 +37,7 @@ export default function Homescreen() {
           >
             {imageList.map((image) => (
               <div key={image._id}>
-                <img src={image.link} alt={image.link} />
+                <img src={`${process.env.PUBLIC_URL}`+image.link} alt={image.link} />
               </div>
             ))}
           </Carousel>
