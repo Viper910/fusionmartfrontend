@@ -37,7 +37,7 @@ export default function Productscreen(props) {
               <div className="col-sm">
                 <img
                   style={{ height: "26em", borderRadius: "10px" }}
-                  src={product.image}
+                  src={`${process.env.PUBLIC_URL}`+product.image}
                   alt={product.name}
                 />
               </div>
